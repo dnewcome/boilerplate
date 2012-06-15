@@ -1,0 +1,9 @@
+a(href='/newpost') New entry
+- each post in posts
+	h2= post.title 
+	pre= post.body
+	a(href='http://localhost:3000/editpost/' +  post.id) edit
+	span &nbsp; | 
+	a(href='http://localhost:3000/confirmdelete/' +  post.id) delete 
+	hr
+
