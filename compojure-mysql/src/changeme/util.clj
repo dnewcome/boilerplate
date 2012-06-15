@@ -1,9 +1,8 @@
 (ns changeme.util)
 
 (defn load-properties
-  "load and return a properties file"
+  "load properties file from disk according to resources path"
   [filename]
-  (println "loading resources file " filename);
   (let [properties (doto (java.util.Properties.)
     (.load
       (-> (Thread/currentThread)
