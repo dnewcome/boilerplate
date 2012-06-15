@@ -1,0 +1,14 @@
+{
+  "name": "template-project",
+  "version": "0.0.1",
+  "description": "TODO: add description",
+  "keywords": ["app", "web"],
+  "repository": "TODO: add repo",
+  "author": "Dan Newcome <dan@dnuke.com> (http://newcome.wordpress.com)",
+  "dependencies": {
+    "express": ">= 2.3.11",
+    "jade": ">= 0.12.1"
+  },
+  "devDependencies": {},
+  "main": "server"
+}

@@ -1,0 +1,9 @@
+style
+	label, input { display:block; }
+form(method='post', action='/editpost/' + post.id )
+	label(for='title') Title:
+	input(type='text', name='title', size='100', value= post.title )
+	label(for='body') Body:
+	textarea(name='body', cols='100',rows='20')= post.body
+	input(type='submit')
+	a(href='/posts') Cancel

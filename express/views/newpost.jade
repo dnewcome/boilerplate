@@ -1,0 +1,8 @@
+style
+	label { display:block; }
+form(method='post', action='/newpost')
+	label(for='title') Title:
+	input(type='text', name='title', size='100')
+	label(for='body') Body:
+	textarea(name='body', cols='100',rows='20')
+	input(type='submit')
